@@ -1,55 +1,85 @@
-This project demonstrates the complete data analytics workflow — from data ingestion and cleaning to analysis, visualization, and presentation. The goal is to extract meaningful business insights from raw data using Power BI, SQL Server, and Gamma App.
+🍕 Pizza Sales Analysis
 
-Dataset-
+## 📌 Project Overview
 
- - Source : Kaggle
+This project demonstrates a complete end-to-end data analytics workflow — from data ingestion and cleaning to analysis, visualization, and presentation. The objective is to extract meaningful business insights from raw data using Power BI, SQL Server, and Gamma.
 
-Tools & Technologies-
+---
 
- - Power BI (For Data loading, data cleaning, transformation, modeling, and dashboard creation)
+## 🗂️ Dataset
 
- - SQL Server (For Data querying, aggregation, and validation using SQL)
+* **Source:** Kaggle
+* Contains structured data used for analysis and visualization
 
- - Gamma (For Final presentation and storytelling of insights)
+---
 
-Project Workflow-
+## 🛠️ Tools & Technologies
 
-1. Data Loading (Power BI)
+* **Power BI** → Data loading, cleaning, transformation, modeling, and dashboard creation
+* **SQL Server** → Data querying, aggregation, and validation
+* **Gamma App** → Presentation and storytelling of insights
 
- - Imported the dataset(s) directly into Power BI
+---
 
- - Inspected the data structure and types.
+## 🔄 Project Workflow
 
-2. Data Cleaning (Power BI)
+### 🔹 1. Data Loading (Power BI)
 
- - Handled missing values, duplicates, and inconsistent data using Power Query Editor.
+* Imported dataset(s) into Power BI
+* Inspected data structure, schema, and data types
 
- - Standardized the formats (dates, text, categories).
+---
 
- - Created calculated columns and measures (e.g., total revenue, profit margin) using DAX Functions.
+### 🔹 2. Data Cleaning (Power BI - Power Query)
 
- - Renamed the columns and tables for better understanding.
+* Handled missing values, duplicates, and inconsistencies
+* Standardized formats (dates, text, categories)
+* Created calculated columns and measures using DAX
+* Renamed columns and tables for better readability
 
-3. Data Exploration & SQL Queries (SQL Server)
+---
 
- - Imported the cleaned dataset into SQL Server.
+### 🔹 3. Data Exploration & Validation (SQL Server)
 
- - Validated the SQL query results with the Power BI results.
+* Imported cleaned dataset into SQL Server
+* Wrote SQL queries for aggregations (SUM, AVG, COUNT, etc.)
+* Performed joins between related tables
+* Validated SQL results against Power BI outputs to ensure accuracy
 
- - Wrote SQL queries for Aggregations (SUM, AVG, COUNT, etc.)
+---
 
- - Performed Joins between related tables.
+### 🔹 4. Dashboard Development (Power BI)
 
-4. Dashboard Development (Power BI)
+* Designed KPI cards to display **Total Sales** and **Total Profit**
+* Built visualizations for **top and bottom performing categories**
+* Implemented interactive filters and slicers
+* Applied consistent design and formatting for better user experience
 
- - Designed KPI cards using DAX functions to calculate and display Total Sales and Total Profit for quick evaluation.
+---
 
- - Visualized top and bottom selling categories using charts for clear comparative analysis.
+### 🔹 5. Insights & Presentation (Gamma App)
 
- - Implemented interactive Filters and slicers for better decision making.
+* Created a professional presentation to communicate key insights
+* Translated data findings into clear business recommendations
 
- - Applied consistent color schemes and formatting.
+---
 
-5. Insights & Presentation (Gamma App)
+## 📊 Key Insights
 
- - Created a professional presentation using Gamma to communicate key insights.
+* Identified top-performing and low-performing product categories
+* Observed patterns in sales and profitability
+* Highlighted opportunities to improve decision-making using data
+
+---
+
+## 💡 Business Impact
+
+* Enables data-driven decision making
+* Improves accuracy through cross-validation (Power BI vs SQL)
+* Enhances communication of insights through structured dashboards and presentations
+
+---
+
+## 🚀 Conclusion
+
+This project showcases a complete analytics pipeline, combining data cleaning, validation, visualization, and storytelling to deliver actionable insights.
